@@ -1,0 +1,53 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url('/assets/fonts/Montserrat-Bold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: MontserratRegular;
+  src: url('/assets/fonts/Montserrat-Regular.ttf') format('opentype');
+}
+
+body {
+  font-family: 'MontserratBold', sans-serif;
+  font-weight: 700;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+.font-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+p {
+  margin-bottom: 30px;
+}
+header {
+  background-color: #f9f9f9;
+  padding: 15px 0;
+}
+
+.navbar-brand img {
+  height: 50px; /* Altura da imagem do logo */
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 8px 15px;
+}
+#btn-pix {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
