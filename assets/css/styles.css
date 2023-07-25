@@ -47,6 +47,12 @@ header {
 .navbar-nav .nav-item .nav-link {
   padding: 8px 15px;
 }
+/* Ajustar o layout para dispositivos móveis */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #fff;
+  }
+}
 #btn-pix {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
